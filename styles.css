@@ -1,0 +1,51 @@
+:root {
+  --bg-color: #EFEFEF;
+  --fg-color: #111;
+  --primary-color: #BDD;
+  --secondary-color: #9AC0C0;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 14pt;
+  color: var(--fg-color);
+  background-color: var(--bg-color);
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--primary-color);
+  display: flex;
+}
+
+a {
+  font-weight: bold;
+  padding: 1rem;
+  text-decoration: none;
+  color: var(--fg-color);
+}
+a:hover { background-color: var(--secondary-color); }
+
+.wrapper {
+  margin: 1rem;
+  margin-top: 60px;
+}
+
+.wrapper p {
+  margin-top: 1rem;
+}
+
+.contact-table {
+  text-align: center;
+  width: 100%;
+}
+
+.contact-table th:after { content: ":"; }
