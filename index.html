@@ -4,7 +4,7 @@
 
 <head>
 
-  <title>Unit 5 | Home</title>
+  <title>Logan's Music | Home</title>
 
   <meta charset="UTF-8" />
 
@@ -17,41 +17,42 @@
 <body>
 
   <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
+
+    <a class=nav-item id=home-link href=index.html>Home</a>
+    <a class=nav-item id=about-link href=about.html>About</a>
+    <a class=nav-item id=contact-link href=contact.html>Contact</a>
+
   </nav>
 
-  <div class=wrapper>
-    <h1>CGS1200C News</h1>
-    <h2>New Lessons Learned</h2>
-    <p>Logan Thompson</p>
+  <header>
 
-    <table summary="A list of hockey teams, with their state, city, and mascot">
+    <h1>The Logan's Music Home Page</h1>
 
-      <caption>NHL Teams</caption>
+  </header>
 
+  <div id=content-wrapper>
+    <table id=recomended-instruments-table summary="The recomended instruments for beginners to experts">
+      <caption>Recommended Instruments</caption>
       <tr>
-        <th scope="col">State</th><th scope="col">Team name</th>
-        <th scope="col">Mascot</th>
-        <th scope="col">City</th>
+        <th>Instrument</th>
+        <th>Beginner</th>
+        <th>Expert</th>
       </tr>
-
       <tr>
-        <th scope="row">District of Columbia</th>
-        <td>Capitals</td>
-        <td>Slapshot</td>
-        <td>Washington</td>
+        <th>Guitar</th>
+        <td>Epiphone sg</td>
+        <td>Ibanez 8 string</td>
       </tr>
-
       <tr>
-        <th scope="row">Michigan</th>
-        <td>Penguins</td>
-        <td>Al the Octopus</td>
-        <td>Detroit</td>
+        <th>Uke</th>
+        <td>Sponge bob uke</td>
+        <td>cordoba uke</td>
       </tr>
-
     </table>
+
+    <video width="600" height="420" controls>
+      <source src="ibanez-8str-demo-test.mp4" type="video/mp4">
+    </video>
 
   </div>
 
